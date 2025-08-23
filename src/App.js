@@ -2,14 +2,23 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import SingleCard from './components/SingleCard';
 
+// images
+
+import helmet from './img/helmet.png';
+import ring from './img/ring.png';
+import scroll from './img/scroll.png';
+import shield from './img/shield.png';
+import sword from './img/sword.png';
+import potion from './img/potion.png';
+
 const cardImages = [
-  { "src": "/img/helmet01.png" , matched : false},
-  { "src": "/img/ring1.png"    , matched : false},
-  { "src": "/img/scroll1.png"  , matched : false},
-  { "src": "/img/shield1.png"  , matched : false},
-  { "src": "/img/sword1.png"   , matched : false},
-  { "src": "/img/potion.png"   , matched : false}
-]
+  { src: helmet, matched: false },
+  { src: ring, matched: false },
+  { src: scroll, matched: false },
+  { src: shield, matched: false },
+  { src: sword, matched: false },
+  { src: potion, matched: false }
+];
 
 function App() {
   const [cards, setCards] = useState([])
