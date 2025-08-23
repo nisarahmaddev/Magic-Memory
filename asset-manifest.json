@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-crud/static/css/main.b19c43bb.css",
-    "main.js": "/react-crud/static/js/main.00c45f70.js",
-    "static/js/453.2e9d22e0.chunk.js": "/react-crud/static/js/453.2e9d22e0.chunk.js",
-    "index.html": "/react-crud/index.html",
-    "main.b19c43bb.css.map": "/react-crud/static/css/main.b19c43bb.css.map",
-    "main.00c45f70.js.map": "/react-crud/static/js/main.00c45f70.js.map",
-    "453.2e9d22e0.chunk.js.map": "/react-crud/static/js/453.2e9d22e0.chunk.js.map"
+    "main.css": "/magic-memory/static/css/main.b19c43bb.css",
+    "main.js": "/magic-memory/static/js/main.3abcba78.js",
+    "static/js/453.2e9d22e0.chunk.js": "/magic-memory/static/js/453.2e9d22e0.chunk.js",
+    "index.html": "/magic-memory/index.html",
+    "main.b19c43bb.css.map": "/magic-memory/static/css/main.b19c43bb.css.map",
+    "main.3abcba78.js.map": "/magic-memory/static/js/main.3abcba78.js.map",
+    "453.2e9d22e0.chunk.js.map": "/magic-memory/static/js/453.2e9d22e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b19c43bb.css",
-    "static/js/main.00c45f70.js"
+    "static/js/main.3abcba78.js"
   ]
 }
