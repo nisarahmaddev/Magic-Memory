@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/magic-memory/static/css/main.b19c43bb.css",
-    "main.js": "/magic-memory/static/js/main.3abcba78.js",
-    "static/js/453.2e9d22e0.chunk.js": "/magic-memory/static/js/453.2e9d22e0.chunk.js",
-    "index.html": "/magic-memory/index.html",
-    "main.b19c43bb.css.map": "/magic-memory/static/css/main.b19c43bb.css.map",
-    "main.3abcba78.js.map": "/magic-memory/static/js/main.3abcba78.js.map",
-    "453.2e9d22e0.chunk.js.map": "/magic-memory/static/js/453.2e9d22e0.chunk.js.map"
+    "main.css": "/Magic-Memory/static/css/main.b19c43bb.css",
+    "main.js": "/Magic-Memory/static/js/main.6bdc1834.js",
+    "static/js/453.2e9d22e0.chunk.js": "/Magic-Memory/static/js/453.2e9d22e0.chunk.js",
+    "index.html": "/Magic-Memory/index.html",
+    "main.b19c43bb.css.map": "/Magic-Memory/static/css/main.b19c43bb.css.map",
+    "main.6bdc1834.js.map": "/Magic-Memory/static/js/main.6bdc1834.js.map",
+    "453.2e9d22e0.chunk.js.map": "/Magic-Memory/static/js/453.2e9d22e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b19c43bb.css",
-    "static/js/main.3abcba78.js"
+    "static/js/main.6bdc1834.js"
   ]
 }
