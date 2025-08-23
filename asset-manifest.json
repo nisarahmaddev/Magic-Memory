@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/Magic-Memory/static/css/main.b19c43bb.css",
-    "main.js": "/Magic-Memory/static/js/main.6bdc1834.js",
+    "main.js": "/Magic-Memory/static/js/main.282bc074.js",
     "static/js/453.2e9d22e0.chunk.js": "/Magic-Memory/static/js/453.2e9d22e0.chunk.js",
+    "static/media/helmet.png": "/Magic-Memory/static/media/helmet.53856b75136b10e485bf.png",
+    "static/media/shield.png": "/Magic-Memory/static/media/shield.65e24db18bfde481bbd9.png",
+    "static/media/ring.png": "/Magic-Memory/static/media/ring.0ea1e280e4598bf73660.png",
+    "static/media/scroll.png": "/Magic-Memory/static/media/scroll.8d331af7c44403dc89ff.png",
+    "static/media/potion.png": "/Magic-Memory/static/media/potion.81c1b30908a18ac49525.png",
+    "static/media/sword.png": "/Magic-Memory/static/media/sword.4cfe5ed0693627854db2.png",
     "index.html": "/Magic-Memory/index.html",
     "main.b19c43bb.css.map": "/Magic-Memory/static/css/main.b19c43bb.css.map",
-    "main.6bdc1834.js.map": "/Magic-Memory/static/js/main.6bdc1834.js.map",
+    "main.282bc074.js.map": "/Magic-Memory/static/js/main.282bc074.js.map",
     "453.2e9d22e0.chunk.js.map": "/Magic-Memory/static/js/453.2e9d22e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b19c43bb.css",
-    "static/js/main.6bdc1834.js"
+    "static/js/main.282bc074.js"
   ]
 }
