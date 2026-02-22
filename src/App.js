@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import './App.css';
 import SingleCard from './components/SingleCard';
 
@@ -40,6 +40,12 @@ function App() {
   const handleChoice = (card) => {
     choiceOne ? setchoiceTwo(card) : setchoiceOne(card)
   }
+  
+  const resetTurn = useCallback(() => {
+    setchoiceOne(null)
+    setchoiceTwo(null)
+    setTurns(prevTurns => prevTurns + 1)
+  }, [])
 
   useEffect( () => {
     if( choiceOne && choiceTwo) {
@@ -53,20 +59,14 @@ function App() {
             }
           })
         })
-        reserTurn()
+        resetTurn()
       } else {
-        setTimeout(() =>reserTurn(), 1000)
+        setTimeout(() => resetTurn(), 1000)
       }
     }
-  }, [choiceOne, choiceTwo])
+  }, [choiceOne, choiceTwo, resetTurn])
 
-  console.log(cards)
-
-  const reserTurn = () => {
-    setchoiceOne(null)
-    setchoiceTwo(null)
-    setTurns(prevTurns => prevTurns + 1)
-  }
+console.log(turns)  
 
   return (
     <div className="App">

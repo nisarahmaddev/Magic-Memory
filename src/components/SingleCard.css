@@ -17,7 +17,7 @@
   transform: rotateY(90deg);
   transition: all ease-in 0.2s;
   position: absolute;
-  height: 119px;
+  height: 150px;
 
 }
 .flipped .front{
@@ -27,7 +27,7 @@
 .card .back {
   transition: all ease-in 0.2s;
   transition-delay: 0.2s;
-  height: 119px;
+  height: 150px;
 
 }
 .flipped .back{
