@@ -22,7 +22,7 @@ const cardImages = [
 
 function App() {
   const [cards, setCards] = useState([])
-  const [turns, setTurns] = useState(0)
+  const [setTurns] = useState(0)
   const [choiceOne, setchoiceOne] = useState(null)
   const [choiceTwo, setchoiceTwo] = useState(null)
 
