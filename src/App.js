@@ -22,7 +22,7 @@ const cardImages = [
 
 function App() {
   const [cards, setCards] = useState([])
-  const [setTurns] = useState(0)
+  const [turns, setTurns] = useState(0)
   const [choiceOne, setchoiceOne] = useState(null)
   const [choiceTwo, setchoiceTwo] = useState(null)
 
@@ -66,7 +66,7 @@ function App() {
     }
   }, [choiceOne, choiceTwo, resetTurn])
   
-
+console.log(turns)
   return (
     <div className="App">
       <h1>Magic Match</h1>
