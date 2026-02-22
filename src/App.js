@@ -45,7 +45,7 @@ function App() {
     setchoiceOne(null)
     setchoiceTwo(null)
     setTurns(prevTurns => prevTurns + 1)
-  }, [])
+  }, [setTurns])
 
   useEffect( () => {
     if( choiceOne && choiceTwo) {
@@ -65,8 +65,7 @@ function App() {
       }
     }
   }, [choiceOne, choiceTwo, resetTurn])
-
-console.log(turns)  
+  
 
   return (
     <div className="App">
